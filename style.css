@@ -212,3 +212,11 @@ ul, nav, header {
         left: 68px;
     }
 }
+/*--------------------------------
+     CARD STYLE
+  ----------------------------------*/
+
+table td img {
+    width: 100%;
+    border-radius: 10px;
+}
