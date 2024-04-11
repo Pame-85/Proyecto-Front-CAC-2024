@@ -216,7 +216,38 @@ ul, nav, header {
      CARD STYLE
   ----------------------------------*/
 
-table td img {
-    width: 100%;
-    border-radius: 10px;
+.contenedor-tarjeta{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px;
+}
+.tarjeta {
+    width: 35%; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border: 2px solid rgb(67, 161, 254); 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    float: left; 
+    background: rgb(67, 161, 254);
+}
+.tarjeta img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+    object-fit: cover;
+}
+.descripcion {
+    font-family: --font-secondary;
+    text-align: center; 
+    margin-top: 10px; 
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+@media (max-width: 768px) {
+    .tarjeta {
+        width: 90%;
+    }
 }
