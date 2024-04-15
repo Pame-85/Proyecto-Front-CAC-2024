@@ -35,7 +35,7 @@
                     <li class="menu-header">NOSOTROS</li>
                 </a>
                 <a href="#a-cursos" class="a-header">
-                    <li class="menu-header">CURSOS</li>
+                    <li class="menu-header">OBRAS</li>
                 </a>
                 <a href="#a-opiniones">
                     <li class="menu-header">OPINIONES</li>
@@ -57,7 +57,7 @@
                     <li class="menu-header">NOSOTROS</li>
                 </a>
                 <a href="#a-cursos">
-                    <li class="menu-header">CURSOS</li>
+                    <li class="menu-header">OBRAS</li>
                 </a>
                 <a href="#a-opiniones">
                     <li class="menu-header">OPINIONES</li>
@@ -68,12 +68,12 @@
             </ul>
         </nav>
     </header>
-<!-- Layout principal -->
+    <!-- Layout principal -->
     <section id="inicio">
         <div class="img-principal">
             <a href="./">
-            <h1 class="title-image">Arts&Culture</h1>
-        </a>
+                <h1 class="title-image">Arts&Culture</h1>
+            </a>
         </div>
         <p class="img-text">Octubre 5-6 - 2024</p>
         <p class="content-text img-text-modal">En Línea - Presencial</p>
@@ -127,50 +127,100 @@
             </button>
         </div>
     </section>
-    <section>
-        <h1>Formulario</h1>
-    </section>
-<!-- SECCIÓN Footer -->
-<footer class="footer">
-    <div class="footer__grid">
-        <div class="footer__contenido">
-            <h3 class="footer__logo">
-            Arts&Culture
-            </h3>
-        <p class="footer__texto">
-                Arts&Culture es un espacio para artistas de todos los niveles, 
-                <br> 
-                los cursos se llevan a cabo de forma presencial y en línea.
-            </p>
+
+    <!-- CONTACT FORM -->
+    <section class="contact-form" id="a-contacto">
+        <div class="form">
+            <form method="post">
+                <h2>Formulario de Contacto</h2>
+                <input class="input" type="text" id="fullname" placeholder="Nombre">
+                <input class="input" type="text" id="username" placeholder="Usuario ó email">
+                <input class="input" type="tel" id="tel" placeholder="Teléfono"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Debe contener solo números">
+                <div class="Gender">
+                    <h3>Género</h3>
+                    <label for="gender">Femenino</label>
+                    <input type="radio" id="gender" name="gender" value="femenino">
+                    <label for="gender2">Masculino</label>
+                    <input type="radio" id="gender2" name="gender" value="masculino">
+                </div>
+
+                <!-- Dropdown menu for countries of Latin America -->
+                <select id="countrySelect" onchange="">
+                    <option value="">Selecciona un país</option>
+                    <option value="AR">Argentina</option>
+                    <option value="BO">Bolivia</option>
+                    <option value="BR">Brasil</option>
+                    <option value="CL">Chile</option>
+                    <option value="CO">Colombia</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="CU">Cuba</option>
+                    <option value="DO">Republica Dominicana</option>
+                    <option value="EC">Ecuador</option>
+                    <option value="SV">El Salvador</option>
+                    <option value="GT">Guatemala</option>
+                    <option value="HN">Honduras</option>
+                    <option value="MX">Mexico</option>
+                    <option value="NI">Nicaragua</option>
+                    <option value="PA">Panama</option>
+                    <option value="PY">Paraguay</option>
+                    <option value="PE">Peru</option>
+                    <option value="PR">Puerto Rico</option>
+                    <option value="UY">Uruguay</option>
+                    <option value="VE">Venezuela</option>
+                </select>
+                <div class="comment">
+                    <label for="comment">Deja tú comentario:</label><br>
+                    <textarea id="comment" name="comment" rows="4" cols="50"
+                        placeholder="Escribe tú comentario aquí..."></textarea>
+
+                </div>
+                <button class="submit">Enviar</button>
+
+
+            </form>
+
         </div>
+    </section>
+    <!-- SECCIÓN Footer -->
+    <footer class="footer">
+        <div class="footer__grid">
+            <div class="footer__contenido">
+                <h3 class="footer__logo">
+                    Arts&Culture
+                </h3>
+                <p class="footer__texto">
+                    Arts&Culture es un espacio para artistas de todos los niveles,
+                    <br>
+                    las obras pueden visualizarse de forma presencial y en línea.
+                </p>
+            </div>
 
-        <nav class="menu-redes"> 
-            <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="/">
-                <span class="menu-redes__ocultar">Facebook</span>
-            </a> 
-            <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="/">
-                <span class="menu-redes__ocultar">Twitter</span>
-            </a> 
-            <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="/">
-                <span class="menu-redes__ocultar">YouTube</span>
-            </a> 
-            <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="/">
-                <span class="menu-redes__ocultar">Instagram</span>
-            </a> 
-            <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="/">
-                <span class="menu-redes__ocultar">Tiktok</span>
-            </a> 
-        </nav>
-    </div>
-<p class="footer__copyright">
-        Arts&Culture
-        <span class="footer__copyright--regular">
-            - Todos los derechos reservados 
-        </span>
-    </p>
-</footer>
-
-
+            <nav class="menu-redes">
+                <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="/">
+                    <span class="menu-redes__ocultar">Facebook</span>
+                </a>
+                <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="/">
+                    <span class="menu-redes__ocultar">Twitter</span>
+                </a>
+                <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="/">
+                    <span class="menu-redes__ocultar">YouTube</span>
+                </a>
+                <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="/">
+                    <span class="menu-redes__ocultar">Instagram</span>
+                </a>
+                <a class="menu-redes__enlace" rel="noopener noreferrer" target="_blank" href="/">
+                    <span class="menu-redes__ocultar">Tiktok</span>
+                </a>
+            </nav>
+        </div>
+        <p class="footer__copyright">
+            Arts&Culture
+            <span class="footer__copyright--regular">
+                - Todos los derechos reservados
+            </span>
+        </p>
+    </footer>
     <!-- JAVASCRIPT LINK -->
     <script src="index.js"></script>
 
