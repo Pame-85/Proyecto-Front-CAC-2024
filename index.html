@@ -82,8 +82,57 @@
 
     </section>
 
-    <section>
-        <h1>Formulario</h1>
+    <section class="contact-form">
+        <div class="form">
+            <form method="post">
+                <h2>Formulario de Contacto</h2>
+                <input class="input" type="text" id="fullname" placeholder="Full name" >
+                <input class="input" type="text" id="username" placeholder="Username or email" >
+                <input  class="input" type="tel" id="tel" placeholder="(Telephone) ###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Must contain only numbers">
+               <div class="Gender">
+                <h3>Genero</h3>
+                <label for="gender">Femenino</label>
+                <input type="radio" id="gender" name="gender" value="femenino">
+                <label for="gender2">Masculino</label>
+                <input type="radio" id="gender2" name="gender" value="masculino">
+               </div>
+                
+               <!-- Dropdown menu for countries of Latin America -->
+<select id="countrySelect" onchange="">
+    <option value="">Select a country</option>
+    <option value="AR">Argentina</option>
+    <option value="BO">Bolivia</option>
+    <option value="BR">Brazil</option>
+    <option value="CL">Chile</option>
+    <option value="CO">Colombia</option>
+    <option value="CR">Costa Rica</option>
+    <option value="CU">Cuba</option>
+    <option value="DO">Dominican Republic</option>
+    <option value="EC">Ecuador</option>
+    <option value="SV">El Salvador</option>
+    <option value="GT">Guatemala</option>
+    <option value="HN">Honduras</option>
+    <option value="MX">Mexico</option>
+    <option value="NI">Nicaragua</option>
+    <option value="PA">Panama</option>
+    <option value="PY">Paraguay</option>
+    <option value="PE">Peru</option>
+    <option value="PR">Puerto Rico</option>
+    <option value="UY">Uruguay</option>
+    <option value="VE">Venezuela</option>
+</select>
+<div class="comment">
+    <label for="comment">Deje su commentario:</label><br>
+<textarea id="comment" name="comment" rows="4" cols="50" placeholder="Write your comment here..."></textarea>
+
+</div>
+
+        <button>Enviar</button>
+
+
+            </form>
+
+        </div>
     </section>
 
     <!-- JAVASCRIPT LINK -->
