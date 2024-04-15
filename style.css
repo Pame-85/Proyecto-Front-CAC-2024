@@ -21,6 +21,7 @@ header {
     justify-content: flex-end;
     box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
     position: fixed;
+    z-index: 3;
 }
 
 /*--------------------------------
@@ -162,6 +163,42 @@ ul, nav, header {
     padding-bottom: 20px;
     font-weight: normal;
     margin: 10px 150px;
+}
+
+/*--------------------------------
+      SECCIÓN CAROUSEL
+  ----------------------------------*/
+  .seccion-carousel {
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(52, 52, 52, 0.5)), 
+        url('assets/background-obras.jpg') center/cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.seccion-carousel h1 {
+    padding-bottom: 50px;
+    color: #fafafa;
+}
+
+.div-carousel {
+    width: 500px;
+    height: 500px;
+}
+
+.carousel-inner img {
+    width: 500px;
+    height: 500px;
+}
+
+.carousel-inner h5 {
+    background-color: #fafafa;
+    color: rgb(67, 161, 254);
+    font-weight: 600;
 }
 
 /*--------------------------------
