@@ -218,15 +218,14 @@ h2{
 form{
     
     border-radius: 10px;
-    background-color: #0400ff;
+    background-color: rgb(67, 161, 254, 0.8);
    padding: 40px;
-   color: white;
+   color: black;
    font-family: "Abril Fatface", cursive;
    box-shadow: 0 0 20px rgb(0,0,0, 0.8);
+   
 }
-form button{
-    width: 100%;
-}
+
 .Gender input{
     margin: 15px 10px 0px 5px ;
 }
@@ -238,28 +237,34 @@ form button{
     outline: none;
     width: 400px;
     border: 1px solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    border: none;
 
 }
-select{
+#countrySelect{
     outline: none;
-    margin:15px 0px 15px 0px;
+    margin:20px 0px 15px 0px;
     padding: 5px;
     border: 1px solid;
     border-radius: 5px;
     width: 50%;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
 }
-button{
+.submmit{
     outline: none;
     margin:15px 0px 15px 0px;
     padding: 10px;
     border-radius: 15px;
-    width: 50%;
     border: none;
     font-size: 18px;
-    color: white;
-    background-color: #93c7fe;
+    color: black;
+    background-color: #69eea3;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
 }
 input:focus {
     border-color: #007bff; /* Optional: Change border color on focus */
@@ -269,11 +274,13 @@ input:focus {
 .comment {
     margin:5px 0px 15px 0px;
 }
-textarea{
+#comment{
     margin:15px 0px 0px 0px;
     padding:10px 10px 0px 15px;
     outline: none;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-style: none;
 
 }
 /*-------------------------
