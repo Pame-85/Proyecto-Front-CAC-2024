@@ -27,6 +27,7 @@ header {
   z-index: 3;
 }
 
+
 /*--------------------------------
       NAV BAR GENERAL
   ----------------------------------*/
@@ -336,6 +337,15 @@ header {
   position: relative
 }
 
+.h2-obras {
+  margin-top: 100px;
+  font-family: var(--font-secondary);
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
 .tarjeta {
   width: 25%;
   margin: 20px auto;
@@ -363,6 +373,7 @@ header {
   font-size: 18px;
 }
 
+
 /*--------------------------------
       SECCIÓN-OPINIONES
   ----------------------------------*/
@@ -374,6 +385,15 @@ header {
   gap: 30px;
   margin-top: 30px;
   position: relative
+}
+
+.h2-opiniones {
+  margin-top: 100px;
+  font-family: var(--font-secondary);
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  
 }
 
 figure.opinion {
@@ -475,21 +495,25 @@ figure.opinion .author h5 span {
   ----------------------------------*/
 
 .form {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   display: flex;
   justify-content: center;
 }
-
-h2 {
+.h2-contacto {
+  margin-top: 100px;
   margin-bottom: 30px;
+  font-family: var(--font-secondary);
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  
 }
-
 form {
   border-radius: 10px;
   background-color: rgb(67, 161, 254, 0.8);
   padding: 40px;
   color: black;
-  font-family: "Abril Fatface", cursive;
+  font-family:var(--font-secondary);
   box-shadow: 0 0 20px rgb(0, 0, 0, 0.8);
 
 }
@@ -503,6 +527,7 @@ form {
   margin-bottom: 30px;
   border-style: none;
   padding: 10px 10px 10px 20px;
+  font-family:var(--font-primary);
   outline: none;
   width: 100%;
   border: 1px solid;
@@ -510,10 +535,12 @@ form {
   border-radius: 5px;
   border: none;
 }
+
 #countrySelect {
   outline: none;
   margin: 20px 0px 15px 0px;
   padding: 5px;
+  font-family:var(--font-primary);
   border: 1px solid;
   border-radius: 5px;
   width: 100%;
@@ -527,6 +554,7 @@ form {
   padding: 10px;
   border-radius: 8px;
   border: none;
+  font-family:var(--font-primary);
   font-size: 18px;
   color: white;
   background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
@@ -546,6 +574,7 @@ input:focus {
 }
 .comment {
   margin: 5px 0px 15px 0px;
+ 
 }
 #comment {
   margin: 15px 0px 0px 0px;
