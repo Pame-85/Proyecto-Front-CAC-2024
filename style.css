@@ -536,8 +536,7 @@ input:focus {
   margin: 5px 0px 15px 0px;
 
 }
-
-#comment {
+#comment-1 {
   margin: 15px 0px 0px 0px;
   padding: 10px 10px 0px 15px;
   outline: none;
@@ -752,7 +751,7 @@ input:focus {
   }
 
   .img-boton {
-bottom: 200px;
+    bottom: 200px;
     left: 145px;
     }
 
@@ -787,7 +786,7 @@ bottom: 200px;
     width: 430px;
   }
 
-  #comment {
+  #comment-1 {
     width: 400px
   }
 

@@ -230,18 +230,19 @@
   <section class="contact-form" id="a-contacto">
     <h2 class="h2-contacto">Contacto</h2>
     <div class="form">
-      <form method="post">
+      <form method="post" id="c-form">
         <h2>Formulario de Contacto</h2>
-        <input class="input" type="text" id="fullname" placeholder="Nombre">
-        <input class="input" type="text" id="username" placeholder="Usuario ó email">
-        <input class="input" type="tel" id="tel" placeholder="Teléfono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-          title="Debe contener solo números">
+        <input class="input" type="text" id="fullname" placeholder="Nombre" required>
+        <input class="input" type="email" id="email" placeholder="email" required>
+        <input class="input" type="tel" id="tel"  placeholder="phone number"  >
         <div class="Gender">
           <h3>Género</h3>
           <label for="gender">Femenino</label>
           <input type="radio" id="gender" name="gender" value="femenino">
           <label for="gender2">Masculino</label>
           <input type="radio" id="gender2" name="gender" value="masculino">
+          <label for="gender3">Otro</label>
+          <input type="radio" id="gender3" name="gender" value="masculino">
         </div>
         <!-- Dropdown menu for countries of Latin America -->
         <select id="countrySelect" onchange="">
@@ -269,13 +270,18 @@
         </select>
         <div class="comment">
           <label for="comment">Deja tú comentario:</label><br>
-          <textarea id="comment" name="comment" rows="4" cols="50"
+          <textarea id="comment-1" name="comment" rows="4" cols="50"
             placeholder="Escribe tú comentario aquí..."></textarea>
         </div>
         <button class="submit">Enviar</button>
       </form>
     </div>
   </section>
+  <div class="answer">
+    <h2 id="answer-form">
+
+    </h2>
+  </div>
   <!-- SECCIÓN-FOOTER -->
   <footer class="footer">
     <div class="waves">
@@ -308,6 +314,7 @@
   </footer>
   <!-- JAVASCRIPT LINK -->
   <script src="index.js"></script>
+  <script src="form.js"></script>
 
   <!-- Library Footer -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
