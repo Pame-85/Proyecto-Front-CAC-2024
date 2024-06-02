@@ -357,6 +357,42 @@ header {
   -webkit-text-fill-color: transparent;
 }
 
+.service:nth-child(4) i {
+  background: linear-gradient(#fff, #31dca1 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service:nth-child(5) i {
+  background: linear-gradient(#fff, #4400ab 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service:nth-child(6) i {
+  background: linear-gradient(#fff, #ff4800 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service:nth-child(7) i {
+  background: linear-gradient(#fff, #ff26ac 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service:nth-child(8) i {
+  background: linear-gradient(#fff, #00d1e0 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service:nth-child(9) i {
+  background: linear-gradient(#fff, #b600e4 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .service h3 {
   font-family: 'Croissant One', cursive;
   font-size: 2rem;
@@ -392,7 +428,6 @@ header {
   opacity: 0.3;
   transform: rotateZ(-10deg);
 }
-
 /* End of Services */
 
 /* Projects */
@@ -514,7 +549,6 @@ header {
   transform: translateY(-50%);
   box-shadow: 0 3rem 8rem rgba(130, 162, 235, 0.9);
 }
-
 /* End of Projects */
 
 /* Templates */
@@ -859,7 +893,6 @@ video {
   height: 100%;
   box-shadow: 0 1rem 10rem rgba(20, 52, 129, 0.7);
 }
-
 /* End of Video */
 /* End of Templates */
 
@@ -1073,14 +1106,13 @@ footer {
     width: 55%;
   }
 
-  .dropdown {
-    top: 4.5rem;
-  }
-
   .services-wrapper {
     width: 70%;
   }
 
+  .projects{
+    margin-top:60rem;
+  }
   .projects-list {
     width: 80%;
   }
@@ -1099,31 +1131,7 @@ footer {
   }
 }
 
-@media (max-width: 1440px) {
-  html {
-    font-size: 58%;
-  }
 
-  .nav-items {
-    width: 60%;
-  }
-
-  .services-wrapper {
-    width: 75%;
-  }
-
-  .filter-nav {
-    width: 85%;
-  }
-
-  .projects-list {
-    width: 85%;
-  }
-
-  .templates-left p {
-    width: 50rem;
-  }
-}
 
 @media (max-width: 1366px) {
   html {
@@ -1357,23 +1365,6 @@ footer {
     font-size: 2.2rem;
   }
 
-  .dropdown {
-    opacity: 0;
-    visibility: hidden;
-  }
-
-  .nav-item:hover .dropdown {
-    opacity: 0;
-    visibility: hidden;
-  }
-
-  .nav-item.show .dropdown {
-    opacity: 1;
-    visibility: visible;
-  }
-
-
-
   .menu-icon {
     width: 4rem;
     height: 2rem;
@@ -1458,7 +1449,7 @@ footer {
     width: 12rem;
     height: 4.5rem;
   }
-
+  
   .projects-list {
     width: 90%;
   }
@@ -1536,14 +1527,14 @@ footer {
   }
 
   .services-bg-1 {
-    top: 10%;
+    top: -10%;
     right: -10%;
   }
 
   .services-bg-2 {
-    bottom: 19%;
+    bottom: -8%;
   }
-
+  
   .projects h1 {
     font-size: 4rem;
   }
@@ -1668,7 +1659,7 @@ footer {
     font-size: 1.8rem;
   }
 
-
+ 
 }
 
 @media (max-width: 375px) {
@@ -1680,7 +1671,6 @@ footer {
     height: 8rem;
     padding-left: 3rem;
   }
-
 
   .nav-item:last-child {
     height: 10rem;
@@ -1695,12 +1685,11 @@ footer {
   }
 
   .services-bg-1 {
-    top: 19%;
+    top: -7%;
   }
 
   footer {
     height: 55vh;
   }
 }
-
 /* End of Responsive */
