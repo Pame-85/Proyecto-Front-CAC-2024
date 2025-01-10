@@ -1,20 +1,28 @@
-# Proyecto - Arts and Culture
-***
-## Proyecto final del módulo Frontend del curso Fullstack Node.js, CAC.💻
-***
-### Este proyecto tiene como objetivo principal mostrar como ejemplo del desarrollo web de una página.
-### El diseño intenta atraer la atención del usuario, para lo cual se utiliza un contraste de colores Puros.[Colores](https://es.wikipedia.org/wiki/Johannes_Itten)
-*****
-### Dejo aquí el link del proyecto [Netlify](https://arts-culture.netlify.app/)
-*****
-### Para clonar está Repo seguí estos pasos en tu terminal:
-- #### Ir al [Repo](https://github.com/Pame-85/Proyecto-Front-CAC-2024).
-- #### Forkearlo.
-- #### Ir a Code y copiar la URL.
-- #### Abrir el Bash.
-- #### Ingresar comando ```git clone < url>```.
-- #### Posicionarse en la carpeta del proyecto y abrirlo con un IDE.
+# Proyecto: Arts and Culture
+
+## Proyecto Final del Módulo Frontend del Curso Fullstack Node.js, CAC 💻
+
+Este proyecto tiene como objetivo principal mostrar un ejemplo de desarrollo web para una página dedicada a **Arte y Cultura**. El diseño se enfoca en atraer la atención del usuario mediante el uso de **contrastes de colores puros**, basándose en la teoría del color de **Johannes Itten**. Para más información sobre la teoría del color, puedes consultar el siguiente enlace: [Johannes Itten - Colores](https://es.wikipedia.org/wiki/Johannes_Itten).
+
+### Demo del Proyecto
+
+Puedes ver el proyecto en vivo aquí: [Netlify](https://arts-culture.netlify.app/)
+
+### Instrucciones para Clonar el Repositorio
+
+Sigue estos pasos en tu terminal para clonar el repositorio:
+
+- Accede al [Repositorio](https://github.com/Pame-85/Proyecto-Front-CAC-2024).
+- Haz un **Fork** del repositorio.
+- Dirígete a la sección **Code** y copia la URL del repositorio.
+- Abre tu terminal (Bash).
+- Ejecuta el siguiente comando:
+   ```bash
+   git clone <URL>
+- Accede a la carpeta del proyecto y ábrelo con tu IDE preferido.
+
 ### Proyecto Responsive:
+
 ![imagen](./images/Arts&Culture.png)
 *****
 ![imagen](./images/Layout.png)
